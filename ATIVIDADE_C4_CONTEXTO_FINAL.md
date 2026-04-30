@@ -2,13 +2,6 @@
 
 ## Sistema Integrado de Monitoramento e Gestão de Configuração para Máquinas Agrícolas
 
-**Aluno/Grupo:** [Seu Nome]  
-**Curso:** Engenharia de Software  
-**Disciplina:** Arquitetura de Software  
-**Data:** 04 de maio de 2026
-
----
-
 ## 1. Introdução
 
 A agricultura moderna enfrenta desafios críticos: máquinas operando em campo com sensores distribuídos, necessidade de decisões em tempo real, conformidade regulatória rigorosa (aviação não tripulada), e eficiência operacional extrema. 
