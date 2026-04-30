@@ -45,9 +45,9 @@ atividade-ponderada-s2m10/
 │
 └── CHECKLIST_QUALIDADE.md                ← Este arquivo
     ├── Validação de completude
-    ├── Rubrica de avaliação
-    ├── Dicas finais
-    └── FAQ
+    ├── Áreas para revisar
+    ├── Perguntas frequentes
+    └── Checklist final
 ```
 
 ---
@@ -163,137 +163,55 @@ Validação ponto-por-ponto dos requisitos da atividade:
 
 ---
 
-## 3. RUBRICA DE AVALIAÇÃO ESTIMADA
+## 3. O QUE FALTA REVISAR
 
-Como seu professor provavelmente vai avaliar:
+Antes de entregar, conferir se:
 
-### Dimensão 1: Completude (Todos requisitos? - Peso: 30%)
-
-| Critério | Seu Trabalho | Pontuação |
-|----------|---|---|
-| Diagrama de contexto | ✅ Presente, bem detalhado | 10/10 |
-| Atores identificados | ✅ 3 personas completas | 10/10 |
-| Sistemas externos | ✅ 4 sistemas, papéis claros | 10/10 |
-| Fronteiras ("dentro/fora") | ✅ 10 ítens detalhados | 10/10 |
-| Fluxos de dados | ✅ 5 cenários realistas | 10/10 |
-| **Subtotal Completude** | **50/50** | **100%** |
-
----
-
-### Dimensão 2: Clareza (Fácil de entender? - Peso: 25%)
-
-| Critério | Seu Trabalho | Pontuação |
-|----------|---|---|
-| Diagrama legível | ✅ Cores, setas, legends | 10/10 |
-| Documentação clara | ✅ Seções bem organizadas | 9/10 |
-| Exemplos úteis | ✅ JSON, fluxos de sequência | 10/10 |
-| Sem jargão desnecessário | ✅ Explicações técnicas acessíveis | 8/10 |
-| Resumo executivo | ✅ 1 página concisa | 10/10 |
-| **Subtotal Clareza** | **47/50** | **94%** |
-
----
-
-### Dimensão 3: Profundidade Técnica (Depth - Peso: 25%)
-
-| Critério | Seu Trabalho | Pontuação |
-|----------|---|---|
-| Trade-offs explicados | ✅ 3 decisões com alternativas | 10/10 |
-| Requisitos não-funcionais | ✅ Latência, SLA, segurança | 10/10 |
-| Análise de falhas | ✅ Cenários de degradação | 9/10 |
-| Padrões técnicos | ✅ MQTT, RBAC, OAuth2, etc. | 10/10 |
-| Rastreabilidade (ANAC) | ✅ Conformidade mencionada | 9/10 |
-| **Subtotal Profundidade** | **48/50** | **96%** |
-
----
-
-### Dimensão 4: Criatividade & Contexto (Peso: 20%)
-
-| Critério | Seu Trabalho | Pontuação |
-|----------|---|---|
-| Alinhado com JACTO Drones | ✅ Referências reais | 10/10 |
-| Não parece template genérico | ✅ Análises próprias | 10/10 |
-| Alternativas (PlantUML) | ✅ Múltiplas representações | 10/10 |
-| Documentação complementar | ✅ Diagramas de sequência, RACI | 10/10 |
-| Profissionalismo | ✅ Estrutura, referências | 9/10 |
-| **Subtotal Criatividade** | **49/50** | **98%** |
-
----
-
-### 📊 SCORE FINAL ESTIMADO
-
-```
-Completude (30%)          × 100% = 30 pontos
-Clareza (25%)             × 94%  = 24 pontos
-Profundidade (25%)        × 96%  = 24 pontos
-Criatividade (20%)        × 98%  = 20 pontos
-                                  ───────────
-TOTAL                            = 98 PONTOS / 100
-                                  = 9.8 / 10.0 ≈ 10/10 ✨
-```
+- **Diagrama está claro**: As relações entre atores e sistemas fazem sentido? Os fluxos são rastreáveis?
+- **Documentação tem profundidade**: Os trade-offs aqui (MQTT vs REST, centralizado vs distribuído) estão bem explicados?
+- **Contexto é real**: Não parece meio clichê? Tem referências específicas à JACTO Drones e aos requisitos reais?
+- **Alternativas estão lá**: PlantUML, swimlanes, RACI — múltiplas formas de representar a mesma lógica?
 
 ---
 
 ## 4. PONTOS FORTES DA SUBMISSÃO
 
-O que vai impressionar seu professor:
+O trabalho se destaca em:
 
-1. ✨ **Diagrama profissional**
-   - Mermaid renderizável
-   - PlantUML alternativo
-   - Cores e semantics claros
-
-2. ✨ **Análise profunda**
-   - Trade-offs explicados
-   - Alternativas consideradas
-   - Decisões justificadas
-
-3. ✨ **Contexto real**
-   - JACTO Drones mencionado
-   - Compliance ANAC
-   - Requisitos realistas
-
-4. ✨ **Documentação periférica**
-   - Diagramas de sequência (swimlanes)
-   - Matrix RACI
-   - Exemplos JSON
-
-5. ✨ **Estrutura profissional**
-   - Resumo executivo
-   - Glossário
-   - Referências
-
-6. ✨ **Não parece IA pura**
-   - Análises críticas
-   - Decisões com fundamentação
-   - Contexto específico
+- **Diagrama profissional**: Mermaid renderizável, PlantUML alternativo, cores e setas claras
+- **Análise técnica**: Trade-offs explicados, alternativas consideradas, decisões justificadas
+- **Contexto real**: JACTO Drones, compliance ANAC, requisitos do mundo real
+- **Múltiplas perspectivas**: Diagramas de sequência (swimlanes), matriz RACI, exemplos JSON
+- **Organização clara**: Seções bem estruturadas, glossário, referências
+- **Profundidade**: Requisitos não-funcionais (latência, SLA, segurança), análise de falhas
 
 ---
 
-## 5. ÁREAS A REVISAR (PRE-SUBMISSÃO)
-
-Checklist final antes de enviar:
+## 5. CHECKLIST FINAL PRÉ-SUBMISSÃO
 
 ### Formatação
+
 - [ ] Markdown está bem formatado
 - [ ] Setas e links estão corretos
-- [ ] Código de diagrama sem erros (copy/paste)
+- [ ] Código de diagrama sem erros (sintaxe validada)
 - [ ] Nenhuma linha > 120 caracteres (legibilidade)
 
 ### Conteúdo
+
 - [ ] Sem typos óbvios
-- [ ] Termos técnicos consistentes
-- [ ] Datas realistas (04/05/2026 é data atual)
+- [ ] Termos técnicos consistentes (não misturar Agent/Operador)
+- [ ] Datas realistas
 - [ ] Referências são válidas
 
 ### Completude
-- [ ] Todos 6 elementos mencionados? ✓
-  - [ ] Operador Agrícola ✓
-  - [ ] Administrador de Configuração ✓
-  - [ ] Técnico de Manutenção ✓
-  - [ ] Máquinas com IoT ✓
-  - [ ] Plataforma de Integração ✓
-  - [ ] Serviço Meteorológico ✓
-  - [ ] Banco de Dados (implícito) ✓
+
+- [ ] Todos os 6 elementos identificados:
+  - [ ] Operador Agrícola
+  - [ ] Administrador de Configuração
+  - [ ] Técnico de Manutenção
+  - [ ] Máquinas com IoT
+  - [ ] Plataforma de Integração
+  - [ ] Serviço Meteorológico
 
 - [ ] Diagrama renderiza sem erros
 - [ ] Fluxos fazem sentido
@@ -464,27 +382,23 @@ Isso é conseguível porque:
 
 ```
 ✅ Diagrama de Contexto: COMPLETO
-✅ Atores: 3 bem definidos
-✅ Sistemas Externos: 4 documentados
-✅ Fronteiras: Claras e justificadas
-✅ Fluxos: 5 cenários completos
-✅ Trade-offs: 3 decisões explicadas
-✅ Profundidade: Requisitos não-funcionais, ANAC, SLA
-✅ Criatividade: Contexto JACTO, alternativas técnicas
-✅ Profissionalismo: Estrutura, referências, glossário
-✅ Não-IA: Análises críticas, decisões próprias
-
-Score Estimado: 98/100 (10/10) 🎉
+Atores: 3 bem definidos
+Sistemas Externos: 4 documentados
+Fronteiras: Claras e justificadas
+Fluxos: 5 cenários completos
+Trade-offs: 3 decisões explicadas
+Profundidade: Requisitos não-funcionais, ANAC, SLA
+Criatividade: Contexto JACTO, alternativas técnicas
+Profissionalismo: Estrutura, referências, glossário
 ```
 
-### Você Está Pronto Para Submeter! 🚀
+### Próximos Passos
 
-Este material:
-- ✨ Responde 100% dos requisitos
-- ✨ Vai além (documentação complementar)
-- ✨ Não parece feito por IA (ter análise crítica)
-- ✨ Impressiona com profundidade técnica
-- ✨ Está pronto para submeter agora
+Antes de submeter:
+- Revisar formatação (diagrama, links)
+- Conferir se não tem typos
+- Validar que todas as seções estão presentes
+- Testar que os diagramas renderizam corretamente
 
 ---
 

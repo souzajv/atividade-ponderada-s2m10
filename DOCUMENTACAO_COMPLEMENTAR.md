@@ -382,9 +382,9 @@ Sprint N+3: C4 Level 4 (Código)
 
 ---
 
-## 10. Conclusão do Suplementar
+## 10. Material Complementar
 
-Este documento complementa o **ATIVIDADE_C4_CONTEXTO_FINAL.md** com:
+Este conjunto cobre:
 
 ✅ Diagramas alternativos (PlantUML sequência, swimlanes)  
 ✅ Análise de falhas e resiliência  
@@ -392,6 +392,4 @@ Este documento complementa o **ATIVIDADE_C4_CONTEXTO_FINAL.md** com:
 ✅ Checklist de implementação  
 ✅ Estimativas de esforço  
 ✅ Riscos e mitigações  
-✅ Roadmap de próximos passos  
-
-**Ambos os documentos (principal + complementar) juntos formam uma submissão profissional e completa.**
+✅ Roadmap de próximos passos

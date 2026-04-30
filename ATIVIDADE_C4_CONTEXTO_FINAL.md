@@ -941,7 +941,3 @@ Este trabalho estabelece a base para arquitetura com qualidade, escalabilidade e
 - **ANAC (Brasil):** Regulação de aeronaves não tripuladas
 - **LGPD (Brasil):** Lei Geral de Proteção de Dados
 - **Figma Design Systems Handbook:** Integração design + arquitetura
-
----
-
-**Documentação Completa:** Este documento integra análise técnica, decisões de arquitetura, trade-offs considerados e justificativas detalhadas. Todo diagrama é Representado em Mermaid (renderiza automaticamente) com alternativa em PlantUML para fins de documentação profissional.
